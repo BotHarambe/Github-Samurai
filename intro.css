@@ -82,43 +82,20 @@ a {
   background-size: cover;
 }
 
-.fujiwara {
-  position: absolute;
-  right: 60%;
+.klanerbilder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-left: 10%;
 }
 
-.oda {
-  position: absolute;
-  right: 25%;
-  top: 50%;
+.klanbild>p  {
+  display: inline;
 }
-.hojo {
-  position: absolute;
-  top: 90%;
-  left: 25%;
-}
-
-.mori {
-  position: absolute;
-  right: 25%;
-  top: 120%;
-}
-.tokugawa {
-  position: absolute;
-  top: 150%;
-  left: 25%;
-}
-.minamoto {
-  position: absolute;
-  top: 70%;
-}
-
-.date {
-  position: absolute;
-  margin-left: 75%;
-  margin-top: 100%;
-}
-.takeda {
-  position: absolute;
-  top: 200%;
+.klanbild  {
+  flex:50%;
+  border: solid 2px;
+  display: inline-flex;
 }
