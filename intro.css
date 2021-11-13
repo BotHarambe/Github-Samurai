@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+a:hover,
+a:focus {
+  box-shadow: inset 0px 0px 10px rgb(219, 18, 152);
+}
 .intropage {
   background-image: url("seppuku.gif");
   background-repeat: no-repeat;
@@ -77,7 +81,7 @@ a {
 }
 
 .klanbody {
-  background-color: rgba(0, 255, 64, 0.397);
+  background-color: rgba(0, 255, 64, 0.562);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -95,6 +99,7 @@ a {
   display: inline;
 }
 .klanbild {
+  background-color: rgba(0, 200, 20, 0.562);
   flex: 50%;
   border: solid 2px;
   display: inline-flex;
@@ -107,4 +112,12 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.helatime {
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
 }
