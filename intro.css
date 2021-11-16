@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a:hover,
 a:focus {
   box-shadow: inset 0px 0px 10px rgb(219, 18, 152);
@@ -115,53 +119,54 @@ a {
   width: 80%;
   margin: auto;
 }
-.timeline {
-  position: absolute;
-  width: 100%;
+
+.vapenbody {
+  background: coral;
+}
+
+.vapeninfo {
+  max-width: 100%;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.vapeninfo .row {
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-.helatime {
-  width: 80%;
-  height: auto;
-  max-width: 800px;
-  margin: 0 auto;
-  position: relative;
+.vapeninfo .row section {
+  background: #fff;
+  border-radius: 5px;
+  width: calc(50% - 40px);
+  border: 2px solid;
 }
 
-.timeline ul li {
-  padding: 20px;
-  background-color: #1e1f22;
-  color: white;
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
-.timeline ul li:last-child {
-  margin-bottom: 0;
-}
-.timeline-content h1 {
-  font-weight: 500;
-  font-size: 25px;
-  line-height: 30px;
-  margin-bottom: 10px;
-}
-.timeline-content p {
-  font-size: 16px;
-  line-height: 30px;
-  font-weight: 300;
+.vapeninfo .centerline {
+  position: absolute;
+  height: 100%;
+  width: 4px;
+  background: blue;
+  left: 50%;
 }
 
-.timeline ul li {
-  width: 50%;
-  position: relative;
-  margin-bottom: 50px;
+.vapeninfo .row-1 {
+  justify-content: flex-start;
 }
 
-.timeline ul li:nth-child(even) {
-  float: right;
-  clear: left;
-  transform: translateX(30px);
-  border-radius: 0px 20px 20px 20px;
+.vapeninfo .row-2 {
+  justify-content: flex-end;
+}
+
+.row section .innehåll {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  max-width: 50%;
+}
+
+.bilder {
+  display: flex;
+  justify-content: space-between;
 }
