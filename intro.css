@@ -169,3 +169,20 @@ img {
   display: flex;
   justify-content: space-evenly;
 }
+
+.tidsnästa {
+  position: absolute;
+  height: 100%;
+  left: 5%;
+}
+
+.tidsintro {
+  position: absolute;
+  height: 100%;
+  left: 65%;
+  width: 10%;
+  border: solid 2px blueviolet;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
