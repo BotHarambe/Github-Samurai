@@ -186,3 +186,10 @@ img {
   justify-content: center;
   align-content: center;
 }
+
+.timeline {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-auto-rows: 500px;
+}
+
