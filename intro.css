@@ -193,3 +193,16 @@ img {
   grid-auto-rows: 500px;
 }
 
+/* Info */
+.Daimyo {
+  display: flex;
+  border: red solid 2px;
+  width: 20%;
+  margin: auto;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
